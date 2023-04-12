@@ -8,7 +8,8 @@ const Home = () => {
 
   return (
     <>
-      <Image className="bkgrd-img" src={bkgrd} />   
+      <Image className="bkgrd-img" src={bkgrd} />
+         
     </>
   )
 }

@@ -22,3 +22,13 @@ code {
 .logo {
   height: 10%;
 }
+
+.a:hover {
+
+  color: crimson;
+  
+}
+
+.mr-auto {
+  margin: 0 5%;
+}
