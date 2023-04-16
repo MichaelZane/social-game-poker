@@ -20,11 +20,11 @@ const Header = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav fill className="mr-auto">
-        <Nav.Link className="atag" href="/">Events</Nav.Link>
-        <Nav.Link className="atag" href="/">Membership</Nav.Link>
-        <Nav.Link className="atag" href="">House Rules</Nav.Link>
-        <Nav.Link className="atag" href="/">Contact Us</Nav.Link>
-        <Nav.Link className="atag" href="/">Careers</Nav.Link>
+        <Nav.Link className="atag" to="/">Events</Nav.Link>
+        <Nav.Link className="atag" to="/">Membership</Nav.Link>
+        <Nav.Link className="atag" to="">House Rules</Nav.Link>
+        <Nav.Link className="atag" to="/">Contact Us</Nav.Link>
+        <Nav.Link className="atag" to="/">Careers</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Navbar>
